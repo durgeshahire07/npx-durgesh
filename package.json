@@ -1,0 +1,22 @@
+{
+  "name": "durgesh",
+  "version": "1.0.0",
+  "description": "npx card of Durgesh Ahire",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "cfonts": "^2.10.0",
+    "chalk": "^5.0.0",
+    "chalk-animation": "^1.6.0",
+    "inquirer": "^8.2.0",
+    "nanospinner": "^1.0.0"
+  }
+}
