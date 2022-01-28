@@ -76,7 +76,7 @@ const questions = [
                 name: `More ${chalk.yellowBright.bold("info")}?`,
                 value: () => {
                     console.log(chalk.yellowBright(`\nMore Info!\n`));
-                    console.log(chalk.italic.greenBright(`version 1.0\nThis is my npx card which i built in a few hours.\nWas pretty fun building it,\nYou can have a look at the source code here: ${chalk.italic.blueBright('https://github.com/durgeshahire07/npx-durgesh')}\n`))
+                    console.log(chalk.italic.greenBright(`version 1.0.2\nThis is my npx card which i built in a few hours.\nWas pretty fun building it,\nYou can have a look at the source code here: ${chalk.italic.blueBright('https://github.com/durgeshahire07/npx-durgesh')}\n`))
                     prompt(questions).then(answer => answer.action()); 
                 }
             },
