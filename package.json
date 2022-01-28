@@ -4,12 +4,16 @@
   "description": "npx card of Durgesh Ahire",
   "main": "index.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/durgeshahire07/npx-durgesh"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ."
   },
   "bin": "./index.js",
   "keywords": [],
-  "author": "",
+  "author": "Durgesh Ahire",
   "license": "ISC",
   "dependencies": {
     "boxen": "^6.2.1",
