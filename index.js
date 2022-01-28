@@ -3,7 +3,6 @@
 import chalk from "chalk";
 import inquirer from "inquirer";
 import chalkAnimation from "chalk-animation";
-import { createSpinner } from "nanospinner";
 import boxen from "boxen"
 import CFonts from "cfonts"
 
@@ -29,7 +28,7 @@ const data = {
     github: chalk.gray("https://github.com/") + someColor("durgeshahire07"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("durgeshahire07"),
     web: chalk.gray("In progress"),
-    npx: chalk.red("npx") + " " + chalk.greenBright("durgesh"),
+    npx: chalk.red("npx") + " " + chalk.greenBright("durgesh-ahire"),
     labelWork: chalk.white.bold("       Work:"),
     labelTwitter: chalk.white.bold("    Twitter:"),
     labelGitHub: chalk.white.bold("     GitHub:"),
@@ -68,7 +67,6 @@ const questions = [
             {
                 name: `Facts about ${orange("me")}?`,
                 value: () => {
-                    // open("mailto:hi@anmolsingh.me");
                     console.log(orange("\nAbout Me\n"))
                     console.log(chalk.italic.greenBright(`=> Student at MIT-ADT University Pune, India\n=> Web developer\n=> App developer\n=> Likes to play Chess\n`))
                     prompt(questions).then(answer => answer.action());
@@ -78,7 +76,7 @@ const questions = [
                 name: `More ${chalk.yellowBright.bold("info")}?`,
                 value: () => {
                     console.log(chalk.yellowBright(`\nMore Info!\n`));
-                    console.log(chalk.italic.greenBright(`version 1.0\nThis is my npx card which i built in a few hours.\nWas pretty fun building it,\nYou can have a look at the source code here: ${chalk.italic.grey('unavailable')}\n`))
+                    console.log(chalk.italic.greenBright(`version 1.0\nThis is my npx card which i built in a few hours.\nWas pretty fun building it,\nYou can have a look at the source code here: ${chalk.italic.blueBright('https://github.com/durgeshahire07/npx-durgesh')}\n`))
                     prompt(questions).then(answer => answer.action()); 
                 }
             },
